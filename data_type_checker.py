@@ -9,6 +9,11 @@ found_pair = False
 for root in range(2,intiger):
     for pwr in range(1,6):
 
+# intiger=int(input())
+# found_pair = False
+# for root in range(2,intiger):
+#     for pwr in range(1,6):
+
         if root**pwr == intiger:
             found_pair = True
             break

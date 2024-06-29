@@ -2,6 +2,8 @@
 
 num1=int(input("please enter your first number.   "))
 num2=int(input("please enter your secound number.   "))
+num3=int(input("please enter your secound number.   "))
+num4=int(input("please enter your secound number.   "))
 
 i=num1
 num1=num2

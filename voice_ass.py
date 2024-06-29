@@ -43,7 +43,7 @@ def take_command():
 
 if __name__ == '__main__':
 
-    speak("Amigo assistance activated ")
+    speak("ali assistance activated ")
     speak("How can i help you")
     while True:
         query = take_command().lower()
@@ -54,12 +54,13 @@ if __name__ == '__main__':
             speak("According to wikipedia")
             speak(results)
         elif 'are you' in query:
-            speak("I am amigo developed by Jaspreet Singh")
+            speak("I am amigo developed by Dveloper Ali")
         elif 'open youtube' in query:
             speak("opening youtube")
             webbrowser.open("youtube.com")
         elif 'open google' in query:
             speak("opening google")
+            print("open google")
             webbrowser.open("google.com")
         elif 'open github' in query:
             speak("opening github")
@@ -70,10 +71,10 @@ if __name__ == '__main__':
         elif 'open spotify' in query:
             speak("opening spotify")
             webbrowser.open("spotify.com")
-        elif 'open whatsapp' in query:
-            speak("opening whatsapp")
-            loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
-            os.startfile(loc)
+        # elif 'open whatsapp' in query:
+        #     speak("opening whatsapp")
+        #     loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
+        #     os.startfile(loc)
         elif 'play music' in query:
             speak("opening music")
             webbrowser.open("spotify.com")

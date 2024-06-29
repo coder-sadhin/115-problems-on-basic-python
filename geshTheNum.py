@@ -19,6 +19,20 @@ while True:
         else:
             print(f"Congratulations! You've guessed the number in {attempts} attempts.")
             break
+        # if guess < secret_number:
+        #     print("Try a higher number.")
+        # elif guess > secret_number:
+        #     print("Try a lower number.")
+        # else:
+        #     print(f"Congratulations! You've guessed the number in {attempts} attempts.")
+        #     break
+        # if guess < secret_number:
+        #     print("Try a higher number.")
+        # elif guess > secret_number:
+        #     print("Try a lower number.")
+        # else:
+        #     print(f"Congratulations! You've guessed the number in {attempts} attempts.")
+        #     break
 
     except ValueError:
         print("Invalid input. Please enter a number between 1 and 100.")

@@ -21,6 +21,8 @@ def get_weather(city, api_key):
         print(f"Temperature: {temperature}°C")
         print(f"Description: {description}")
         print(f"Humidity: {humidity}%")
+        print(f"Humidity: {humidity}%")
+        print(f"Humidity: {humidity}%")
         print(f"Wind Speed: {wind_speed} m/s")
     else:
         print("Failed to fetch weather data. Please check your city name and API key.")

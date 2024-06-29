@@ -6,3 +6,13 @@ if (number % 2) == 0 :
     print(f"Your numer {number} is Even.")
 else:
     print(f"Your numer {number} is Odd.")
+
+# if (number % 2) == 0 :
+#     print(f"Your numer {number} is Even.")
+# else:
+#     print(f"Your numer {number} is Odd.")
+
+# if (number % 2) == 0 :
+#     print(f"Your numer {number} is Even.")
+# else:
+#     print(f"Your numer {number} is Odd.")

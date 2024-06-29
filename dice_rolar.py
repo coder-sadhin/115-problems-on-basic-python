@@ -12,6 +12,14 @@ while True:
 
     if user_input == "exit":
         break
+    # user_input = input(": ")
+
+    # if user_input == "exit":
+    #     break
+    # user_input = input(": ")
+
+    # if user_input == "exit":
+    #     break
 
     if user_input == "roll":
         sides = int(input("Enter the number of sides on the dice: "))

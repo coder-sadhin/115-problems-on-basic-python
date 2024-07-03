@@ -19,6 +19,13 @@ def view_tasks():
         print("Tasks:")
         for index, task in enumerate(tasks, start=1):
             print(f"{index}. {task}")
+# def view_tasks():
+#     if not tasks:
+#         print("No tasks in the list")
+#     else:
+#         print("Tasks:")
+#         for index, task in enumerate(tasks, start=1):
+#             print(f"{index}. {task}")
 
 while True:
     print("Options:")

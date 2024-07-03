@@ -34,6 +34,9 @@ def main():
         another = input("Generate another password? (yes/no): ").lower()
         if another != "yes":
             break
+        # another = input("Generate another password? (yes/no): ").lower()
+        # if another != "yes":
+        #     break
 
 if __name__ == "__main__":
     main()

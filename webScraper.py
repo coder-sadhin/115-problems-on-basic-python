@@ -16,6 +16,9 @@ if response.status_code == 200:
     links = []
     for link in soup.find_all('a'):
         links.append(link.get('href'))
+    # links = []
+    # for link in soup.find_all('a'):
+    #     links.append(link.get('href'))
 
     # Print the scraped data (in this case, the links)
     for link in links:

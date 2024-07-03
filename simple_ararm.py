@@ -23,6 +23,8 @@ def snooze_alarm():
 # Function to stop the alarm
 def stop_alarm():
     print("Alarm stopped")
+# def stop_alarm():
+#     print("Alarm stopped")
 
 # Main loop for the alarm clock
 while True:

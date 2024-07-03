@@ -68,3 +68,5 @@ def simulate(event):
 
 no_sample.bind("<Return>", simulate)
 window.mainloop()
+# no_sample.bind("<Return>", simulate)
+# window.mainloop()

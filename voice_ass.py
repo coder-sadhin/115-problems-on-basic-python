@@ -71,6 +71,9 @@ if __name__ == '__main__':
         elif 'open spotify' in query:
             speak("opening spotify")
             webbrowser.open("spotify.com")
+        # elif 'open spotify' in query:
+        #     speak("opening spotify")
+        #     webbrowser.open("spotify.com")
         # elif 'open whatsapp' in query:
         #     speak("opening whatsapp")
         #     loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.exe"

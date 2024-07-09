@@ -1,5 +1,9 @@
 # problem: Write a Python program to swap the values of two variables without using a temporary variable.
 
+# num1=int(input("please enter your first number.   "))
+# num2=int(input("please enter your secound number.   "))
+# num3=int(input("please enter your secound number.   "))
+# num4=int(input("please enter your secound number.   "))
 num1=int(input("please enter your first number.   "))
 num2=int(input("please enter your secound number.   "))
 num3=int(input("please enter your secound number.   "))

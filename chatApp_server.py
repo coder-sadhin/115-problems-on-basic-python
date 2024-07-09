@@ -45,6 +45,11 @@ def main():
         clients.append(client_socket)
         client_handler = threading.Thread(target=handle_client, args=(client_socket,))
         client_handler.start()
+    # while True:
+    #     client_socket, addr = server_socket.accept()
+    #     clients.append(client_socket)
+    #     client_handler = threading.Thread(target=handle_client, args=(client_socket,))
+    #     client_handler.start()
 
 if __name__ == "__main__":
     main()

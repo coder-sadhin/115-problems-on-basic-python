@@ -19,6 +19,13 @@ def snooze_alarm():
         pass
     print("Snooze time is over. Wake up!")
     winsound.Beep(1000, 1000)  # Beep for 1 second
+def snooze_alarm2():
+    snooze_time = 5  # Snooze for 5 minutes
+    alarm_time = time.time() + snooze_time * 60
+    while time.time() < alarm_time:
+        pass
+    print("Snooze time is over. Wake up!")
+    winsound.Beep(1000, 1000)  # Beep for 1 second
 
 # Function to stop the alarm
 def stop_alarm():

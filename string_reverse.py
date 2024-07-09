@@ -3,6 +3,8 @@
 text=input("please enter your word.   ")
 
 print(text[::-1])
+# print(text[::-1])
+# print(text[::-1])
 # text=input("please enter your word.   ")
 
 # print(text[::-1])

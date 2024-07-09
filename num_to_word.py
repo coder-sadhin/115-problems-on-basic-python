@@ -55,6 +55,9 @@ display.place(x=10, y=300)
 # display.place(x=10, y=300)
 # display.place(x=10, y=300)
 # display.place(x=10, y=300)
+# display.place(x=10, y=300)
+# display.place(x=10, y=300)
+# display.place(x=10, y=300)
 
 
 

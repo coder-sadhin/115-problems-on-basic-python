@@ -8,6 +8,7 @@ text = input("Enter some text: ")
 
 # Call the count_words function to count the words
 word_count = count_words(text)
+word_count2 = count_words(text)
 
 # Display the word count
 print(f"Word count: {word_count}")

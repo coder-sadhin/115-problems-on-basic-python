@@ -12,6 +12,13 @@ def delete_task(task):
     else:
         print("Task not found")
 
+def delete_task2(task):
+    if task in tasks:
+        tasks.remove(task)
+        print("Task deleted:", task)
+    else:
+        print("Task not found")
+
 def view_tasks():
     if not tasks:
         print("No tasks in the list")

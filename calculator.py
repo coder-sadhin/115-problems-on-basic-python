@@ -20,6 +20,13 @@ while True:
     print("Enter 'multiply' for multiplication")
     print("Enter 'divide' for division")
     print("Enter 'exit' to end the program")
+# while True:
+#     print("Options:")
+#     print("Enter 'add' for addition")
+#     print("Enter 'subtract' for subtraction")
+#     print("Enter 'multiply' for multiplication")
+#     print("Enter 'divide' for division")
+#     print("Enter 'exit' to end the program")
 
     user_input = input(": ")
 

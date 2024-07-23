@@ -25,8 +25,6 @@ while True:
 
     if user_input == "exit":
         break
-    # if user_input == "exit":
-    #     break
 
     if user_input in ("add", "subtract", "multiply", "divide"):
         num1 = float(input("Enter first number: "))

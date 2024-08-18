@@ -3,6 +3,8 @@
 
 # value=list(input())
 # print(type(value))
+# value=list(input())
+# print(type(value))
 
 intiger=int(input())
 found_pair = False
